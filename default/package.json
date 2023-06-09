@@ -1,7 +1,7 @@
 {
-  "name": "create-templates",
+  "name": "default",
   "version": "1.0.0",
-  "description": "",
+  "description": "默认模板",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vitepress dev docs",

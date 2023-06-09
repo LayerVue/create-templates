@@ -1,0 +1,24 @@
+{
+  "name": "create-templates",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "build": "node main.js",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LayerVue/create-templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LayerVue/create-templates/issues"
+  },
+  "homepage": "https://github.com/LayerVue/create-templates#readme",
+  "dependencies": {
+    "husky": "^8.0.3"
+  }
+}

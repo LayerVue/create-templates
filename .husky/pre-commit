@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+# 执行构建命令
+npm run build
+
+# 如果构建失败，中止提交
+if [ $? -ne 0 ]; then
+  echo "构建失败，请修复错误后再次提交。"
+  exit 1
+fi
+git add config.json
+# 如果构建成功，允许提交
+exit 0
