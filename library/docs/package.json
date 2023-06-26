@@ -1,0 +1,21 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "layer-library-template": "file:.yalc/layer-library-template"
+  },
+  "devDependencies": {
+    "highlight.js": "^11.8.0",
+    "vitepress": "1.0.0-beta.3",
+    "@types/markdown-it": "^12.2.3",
+    "@types/markdown-it-container": "^2.0.5",
+    "@types/node": "^20.3.1",
+    "markdown-it": "^13.0.1",
+    "markdown-it-container": "^3.0.0"
+  }
+}

@@ -1,1 +1,10 @@
 node_modules
+pnpm-lock.yaml
+**/.vitepress/cache
+**/.yalc
+**/yalc.lock
+**/.vitepress/dist
+**/docs/pnpm-lock.yaml
+**/auto-imports.d.ts
+**/components.d.ts
+/library/dist
